@@ -1,0 +1,104 @@
+html,body{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+}
+.banner, #tea-of-month, #location{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+header{
+    position: fixed;
+    height:69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+
+}
+
+.logo{
+    margin-left: 10px;
+    height: 50px;
+}
+
+li{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.banner{
+    height: 700px;
+    display: flex;
+    background-image: url(./image/background.jpg);
+    background-size: cover;
+    align-items: center;
+}
+
+#mission{
+    background-color: black;
+    width: 100%;
+}
+#tea-of-month{
+    display:flex;
+}
+.img, .intro-tea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.intro-tea{
+    flex-direction: column;
+}
+
+.intro-tea h2, .intro-tea h4{
+    margin: 0.75rem;
+}
+.img img{
+    width: 300px;
+    height: 200px;
+}
+figcaption{
+    margin-top: 10px;
+}
+
+#location{
+    background-image: url(./image/location.jpg);
+    background-size: cover;
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.address-group{
+    margin-top: 15px;
+    display: flex;
+}
+.address{
+    margin: 40px;
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    flex-shrink: 1;
+}
+
+.address p{
+    line-height: 3rem;
+}
+.contact{
+    height: 200px;
+}
+footer p{
+    text-align: left;
+    margin-left: 10px;
+}

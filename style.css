@@ -49,6 +49,7 @@ li{
 }
 #tea-of-month{
     display:flex;
+    flex-direction: column;
 }
 .img, .intro-tea{
     display: flex;

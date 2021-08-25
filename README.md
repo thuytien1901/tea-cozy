@@ -1,1 +1,1 @@
-# tea-cozy
+This is an exercise of Codecademy
